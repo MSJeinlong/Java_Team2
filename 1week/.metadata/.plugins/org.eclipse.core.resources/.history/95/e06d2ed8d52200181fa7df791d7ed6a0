@@ -1,0 +1,19 @@
+package Collection;
+
+import java.util.LinkedList;
+
+public class Link {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		LinkedList<String> li = new LinkedList<String>();
+		li.addFirst("chi");
+		li.addFirst("jun");
+		li.addFirst("long");
+		System.out.println(li);
+	}
+
+}

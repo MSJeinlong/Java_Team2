@@ -1,0 +1,16 @@
+package Collection;
+import java.util.ArrayList;
+public class Lists {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		ArrayList arrayList = new ArrayList();
+		arrayList.add("chi");
+		arrayList.add("jun");
+		arrayList.add("long");
+		arrayList.add("long");
+		System.out.println(arrayList.size());
+		System.out.println(arrayList);
+	}
+
+}

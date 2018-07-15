@@ -1,0 +1,17 @@
+package week2;
+
+import java.util.HashMap;
+
+public class HashMap1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		HashMap <Integer, String> hp= new HashMap<Integer, String>();
+		hp.put(1, "chi");
+		hp.put(2, "jun");
+		hp.put(3, "long");
+		System.out.println(hp);
+		
+	}
+
+}

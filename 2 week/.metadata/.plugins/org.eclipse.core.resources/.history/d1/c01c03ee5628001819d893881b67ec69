@@ -1,0 +1,39 @@
+package week2;
+
+import java.util.HashMap;
+import java.util.Map;
+import java.util.Set;
+
+import java.util.Map.Entry;
+
+//假设有一个字符串数组，统计每个字符串出现的次数
+public class HashMap3 {
+
+	public static void main(String[] args) {
+		String [] strings={"hh", "tt","ee","hh","ff","hh","tt",";"};
+		MyTool.printHP(MyTool.count(strings));
+	}
+
+}
+
+class MyTool{
+	public static Map<String, Integer> count(String[] s){
+		HashMap<String, Integer> hp = new HashMap<String, Integer>();
+		for(int i = 0; i < s.length; i++){
+			if(hp.get(s[i]) == null){
+				hp.put(s[i], 1);
+			} else {
+				hp.put(s[i], hp.get(s[i]) + 1);
+			}
+		}
+		return hp;
+	}
+	
+	public static void printHP(Map<String, Integer> map){
+		Set<Entry<String, Integer>> enSet = map.entrySet();
+		for(Entry<String, Integer> entry:enSet){
+			System.out.println(entry.getKey()+":"+entry.getValue());
+		}
+		
+	}
+}

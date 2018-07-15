@@ -1,0 +1,53 @@
+package week2;
+import java.util.HashMap;
+import java.util.Map;
+public class HashMap2 {
+
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Map<Student, String> hashMap = new HashMap<Student, String>();
+		hashMap.put(new Student(20, "chi" ,20),"c");
+		hashMap.put(new Student(20, "jun", 20), "j");
+		hashMap.put(new Student(20, "long", 20), "l");
+		hashMap.put(new Student(20, "chi", 20), "c");
+		System.out.println(hashMap.size());
+	}
+
+}
+
+class Student{
+	
+	
+	
+	public int getAge() {
+		return age;
+	}
+	public void setAge(int age) {
+		this.age = age;
+	}
+	public String getNameString() {
+		return name;
+	}
+	public void setNameString(String name) {
+		this.name = name;
+	}
+	public int getID() {
+		return ID;
+	}
+	public void setID(int id) {
+		ID = id;
+	}
+	public Student(int age, String name, int id) {
+		super();
+		this.age = age;
+		this.name = name;
+		ID = id;
+	}
+	int age;
+	String name;
+	int ID;
+	public String toString() {
+		return age+":"+name;
+	}
+}

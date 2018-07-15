@@ -1,0 +1,33 @@
+package Collection;
+
+import java.util.LinkedList;
+
+public class Link {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		MyStack mystack = new MyStack();
+		mystack.push("chi");
+		mystack.push("jun");
+		mystack.push("long");
+		System.out.println(mystack.pop());
+	}
+
+}
+
+class MyStack{
+	private LinkedList<String> myli;
+	public MyStack()
+	{
+		myli = new LinkedList<String>();
+	}
+	public void push(String s){
+		myli.add(s);
+	}
+	public String pop(){
+		return myli.removeFirst();
+	}
+}

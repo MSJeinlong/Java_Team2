@@ -1,0 +1,66 @@
+!SESSION 2018-03-15 18:47:36.556 -----------------------------------------------
+eclipse.buildId=M20080911-1700
+java.version=1.7.0_04
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Command-line arguments:  -os win32 -ws win32 -arch x86 -data E:\学习\java162\第二学期\2 week
+
+!ENTRY org.eclipse.osgi 2 1 2018-03-15 18:47:37.305
+!MESSAGE NLS unused message: resources_wrongMarkerAttributeValueType in: org.eclipse.core.internal.utils.messages
+
+!ENTRY org.eclipse.osgi 2 1 2018-03-15 18:47:37.586
+!MESSAGE NLS unused message: OpenResourceDialog_openButton_text in: org.eclipse.ui.internal.ide.messages
+
+!ENTRY org.eclipse.osgi 2 1 2018-03-15 18:47:37.586
+!MESSAGE NLS unused message: OpenResourceDialog_openWithMenu_label in: org.eclipse.ui.internal.ide.messages
+
+!ENTRY org.eclipse.osgi 2 1 2018-03-15 18:47:37.602
+!MESSAGE NLS unused message: OpenResourceDialog_openWithButton_toolTip in: org.eclipse.ui.internal.ide.messages
+
+!ENTRY org.eclipse.osgi 2 1 2018-03-15 18:47:37.602
+!MESSAGE NLS unused message: CleanDialog_cleanSelectedTaskName in: org.eclipse.ui.internal.ide.messages
+
+!ENTRY org.eclipse.osgi 2 1 2018-03-15 18:47:37.602
+!MESSAGE NLS unused message: CleanDialog_cleanAllTaskName in: org.eclipse.ui.internal.ide.messages
+
+!ENTRY org.eclipse.osgi 2 1 2018-03-15 18:47:37.711
+!MESSAGE NLS unused message: InternalError in: org.eclipse.ui.internal.progress.messages
+
+!ENTRY org.eclipse.osgi 2 1 2018-03-15 19:01:50.479
+!MESSAGE NLS unused message: CompletionProcessor_error_javaCompletion_took_too_long_message in: org.eclipse.jdt.internal.ui.text.java.JavaTextMessages
+
+!ENTRY org.eclipse.osgi 2 1 2018-03-15 19:01:54.723
+!MESSAGE NLS unused message: JavaDoc2HTMLTextReader_version_section in: org.eclipse.jdt.internal.ui.text.javadoc.JavaDocMessages
+
+!ENTRY org.eclipse.osgi 2 1 2018-03-15 19:01:54.738
+!MESSAGE NLS unused message: JavaDoc2HTMLTextReader_method_in_type in: org.eclipse.jdt.internal.ui.text.javadoc.JavaDocMessages
+
+!ENTRY org.eclipse.osgi 2 1 2018-03-15 19:01:54.738
+!MESSAGE NLS unused message: JavaDoc2HTMLTextReader_overrides_section in: org.eclipse.jdt.internal.ui.text.javadoc.JavaDocMessages
+
+!ENTRY org.eclipse.osgi 2 1 2018-03-15 19:01:54.738
+!MESSAGE NLS unused message: JavaDoc2HTMLTextReader_specified_by_section in: org.eclipse.jdt.internal.ui.text.javadoc.JavaDocMessages
+
+!ENTRY org.eclipse.osgi 2 1 2018-03-15 19:01:54.754
+!MESSAGE NLS unused message: JavaDoc2HTMLTextReader_deprecated_section in: org.eclipse.jdt.internal.ui.text.javadoc.JavaDocMessages
+
+!ENTRY org.eclipse.osgi 2 1 2018-03-15 19:09:56.797
+!MESSAGE NLS unused message: ToggleBreakpointsTargetManager_defaultToggleTarget_name in: org.eclipse.debug.internal.ui.actions.ActionMessages
+
+!ENTRY org.eclipse.osgi 2 1 2018-03-15 19:09:56.813
+!MESSAGE NLS unused message: ToggleBreakpointsTargetManager_defaultToggleTarget_description in: org.eclipse.debug.internal.ui.actions.ActionMessages
+
+!ENTRY org.eclipse.osgi 2 1 2018-03-15 19:10:03.037
+!MESSAGE NLS unused message: ReorgUtils_21 in: org.eclipse.jdt.internal.corext.refactoring.refactoring
+
+!ENTRY org.eclipse.osgi 2 1 2018-03-15 19:10:03.037
+!MESSAGE NLS unused message: ReorgPolicyFactory_noJavaUpdates in: org.eclipse.jdt.internal.corext.refactoring.refactoring
+
+!ENTRY org.eclipse.osgi 2 1 2018-03-15 19:11:07.949
+!MESSAGE NLS unused message: DeleteResourcesWizard_label_multi_projects in: org.eclipse.ltk.internal.ui.refactoring.RefactoringUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2018-03-15 19:11:07.965
+!MESSAGE NLS unused message: DeleteResourcesWizard_label_single_project in: org.eclipse.ltk.internal.ui.refactoring.RefactoringUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2018-03-15 20:01:38.836
+!MESSAGE NLS unused message: CleanUpRegistry_ErrorTabPage_preview in: org.eclipse.jdt.internal.corext.fix.FixMessages
